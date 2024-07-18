@@ -20,3 +20,7 @@ SELECT name
 FROM Customer
 WHERE referee_id != 2 OR referee_id IS NULL;
 ```
+
+- **`SELECT name`**: This retrieves the `name` column from the `Customer` table.
+- **`FROM Customer`**: Specifies the `Customer` table as the source of data.
+- **`WHERE referee_id != 2 OR referee_id IS NULL`**: Filters the rows to include customers whose `referee_id` is not 2, or where `referee_id` is `NULL` (i.e., they were not referred by anyone).

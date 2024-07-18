@@ -27,3 +27,7 @@ SELECT name, population, area
 FROM World
 WHERE area >= 3000000 OR population >= 25000000;
 ```
+
+- **`SELECT name, population, area`**: Retrieves the `name`, `population`, and `area` columns from the `World` table.
+- **`FROM World`**: Specifies the `World` table as the source of data.
+- **`WHERE area >= 3000000 OR population >= 25000000`**: Filters the rows to include countries that have an area of at least 3 million km² or a population of at least 25 million.

@@ -19,3 +19,7 @@ SELECT tweet_id
 FROM Tweets
 WHERE LENGTH(content) > 15;
 ```
+
+- **`SELECT tweet_id`**: Retrieves the `tweet_id` column from the `Tweets` table.
+- **`FROM Tweets`**: Specifies the `Tweets` table as the source of data.
+- **`WHERE LENGTH(content) > 15`**: Filters the rows to include only those where the length of the `content` column exceeds 15 characters.

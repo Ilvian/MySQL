@@ -22,3 +22,8 @@ FROM Views
 WHERE author_id = viewer_id
 ORDER BY author_id;
 ```
+
+- **`SELECT DISTINCT author_id AS id`**: Retrieves unique `author_id` values from the `Views` table and renames the column to `id`.
+- **`FROM Views`**: Specifies the `Views` table as the source of data.
+- **`WHERE author_id = viewer_id`**: Filters the rows to include only those where the `author_id` is the same as the `viewer_id` (i.e., the author viewed their own article).
+- **`ORDER BY author_id`**: Sorts the result by `author_id` in ascending order.
