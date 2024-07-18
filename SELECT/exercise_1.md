@@ -1,5 +1,3 @@
----
-
 ### Exercise 1
 
 **Table: Products**
@@ -23,5 +21,3 @@ SELECT product_id
 FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y';
 ```
-
---- 
