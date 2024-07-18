@@ -21,3 +21,7 @@ SELECT product_id
 FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y';
 ```
+
+- **`SELECT product_id`**: This tells MySQL to retrieve the `product_id` column from the table.
+- **`FROM Products`**: Specifies the `Products` table as the source of data.
+- **`WHERE low_fats = 'Y' AND recyclable = 'Y'`**: Filters the rows to include only those where `low_fats` is 'Y' and `recyclable` is 'Y'.
